@@ -83,10 +83,10 @@ function Home() {
                     <div className="row g-4">
                         {/* Feature 1 */}
                         <div className="col-md-4">
-                            <div className="card border-0 shadow-sm h-100 text-center p-4">
+                            <div className="card border-0 shadow-lg h-100 text-center p-4">
                                 <div className="card-body">
-                                    <div className="bg-primary bg-opacity-10 text-primary rounded-circle d-inline-flex p-3 mb-3">
-                                        <i className="bi bi-geo-alt-fill fs-1"></i>
+                                    <div className="bg-primary bg-opacity-10 text-white rounded-circle d-inline-flex p-3 mb-3">
+                                        <i className="bi bi-geo-alt-fill fs-1 px-2"></i>
                                     </div>
                                     <h5 className="card-title fw-bold">Lokasi Strategis</h5>
                                     <p className="card-text text-muted">
@@ -97,10 +97,10 @@ function Home() {
                         </div>
                         {/* Feature 2 */}
                         <div className="col-md-4">
-                            <div className="card border-0 shadow-sm h-100 text-center p-4">
+                            <div className="card border-0 shadow-lg h-100 text-center p-4">
                                 <div className="card-body">
-                                    <div className="bg-success bg-opacity-10 text-success rounded-circle d-inline-flex p-3 mb-3">
-                                        <i className="bi bi-shield-check fs-1"></i>
+                                    <div className="bg-success bg-opacity-10 text-white rounded-circle d-inline-flex p-3 mb-3">
+                                        <i className="bi bi-shield-check fs-1 px-2"></i>
                                     </div>
                                     <h5 className="card-title fw-bold">Legalitas Lengkap</h5>
                                     <p className="card-text text-muted">
@@ -111,10 +111,10 @@ function Home() {
                         </div>
                         {/* Feature 3 */}
                         <div className="col-md-4">
-                            <div className="card border-0 shadow-sm h-100 text-center p-4">
+                            <div className="card border-0 shadow-lg h-100 text-center p-4">
                                 <div className="card-body">
-                                    <div className="bg-warning bg-opacity-10 text-warning rounded-circle d-inline-flex p-3 mb-3">
-                                        <i className="bi bi-cash-coin fs-1"></i>
+                                    <div className="bg-warning bg-opacity-10 text-white rounded-circle d-inline-flex p-3 mb-3">
+                                        <i className="bi bi-cash-coin fs-1 px-2"></i>
                                     </div>
                                     <h5 className="card-title fw-bold">Harga Terjangkau</h5>
                                     <p className="card-text text-muted">

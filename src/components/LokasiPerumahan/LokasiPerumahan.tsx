@@ -1,8 +1,8 @@
 import './LokasiPerumahan.tsx'
 
-function LokasiPerumahan({ data }) {
+function LokasiPerumahan ({ data }: { data: any }) {
     // 1. Fungsi format harga ke Rupiah
-    const formatPrice = (price) => {
+    const formatPrice = (price: number) => {
         return new Intl.NumberFormat('id-ID', {
             style: 'currency',
             currency: 'IDR',
@@ -11,7 +11,7 @@ function LokasiPerumahan({ data }) {
     }
 
     // 2. Fungsi render bintang rating
-    const renderStars = (rating) => {
+    const renderStars = (rating: number) => {
         const stars = []
         const fullStars = Math.floor(rating)
         const hasHalfStar = rating % 1 !== 0
@@ -26,7 +26,7 @@ function LokasiPerumahan({ data }) {
     }
 
     return (
-        <div className="card h-100 shadow-sm border-0 overflow-hidden">
+        <div className="card h-100 shadow-lg border-0 overflow-hidden">
             {/* Gambar Properti & Badge Status */}
             <div className="position-relative">
                 <img
@@ -40,7 +40,7 @@ function LokasiPerumahan({ data }) {
                     <i className="bi bi-check-circle-fill me-1"></i>{data.status}
                 </span>
                 {/* Tombol Favorite */}
-                <button className="position-absolute top-0 end-0 m-3 btn btn-sm btn-light rounded-circle shadow-sm">
+                <button className="position-absolute top-0 end-0 m-3 btn btn-sm btn-light rounded-circle shadow-lg">
                     <i className="bi bi-heart"></i>
                 </button>
             </div>
